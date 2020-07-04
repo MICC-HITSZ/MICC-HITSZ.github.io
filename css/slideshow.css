@@ -1,0 +1,43 @@
+﻿#slideContainer{ word-wrap: break-word; }
+#slideContainer { font: 12px/1.5 Tahoma,'Microsoft Yahei','Simsun'; color: #444; }
+#slideContainer ul, li { margin: 0; padding: 0; }
+#slideContainer    ul li { list-style: none; }
+#slideContainer a { color: #000; text-decoration: none; }
+#slideContainer    a:hover { text-decoration: none; }
+ #slideContainer   a img { border: none; }
+ #slideContainer .cl:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+#slideContainer .cl { zoom: 1; }
+
+#slideContainer .frame { margin-bottom: 10px; border: 1px solid #e1e1e1; background: #FFF; }
+#slideContainer .title { padding: 0 10px; height: 32px; font-size: 14px; font-weight: 700; line-height: 32px;  }
+
+#slideContainer .block { margin: 0px 0px 0;}
+
+#slideContainer .temp { margin: 1px; }
+
+#slideContainer .slideshow { clear: both;   height:400px;}
+#slideContainer    .slideshow li { position: relative;  height:400px; }
+    .slideshow span.title { position: absolute; bottom: 0; left: 0; margin-bottom: 0; width: 910px; height: 32px; line-height: 32px; font-size: 14px; text-indent: 10px; }
+    .slideshow span.title, .slidebar li { background: rgba(0,0,0,0.3); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #30000000,endColorstr = #30000000); color: #FFF; overflow: hidden; }
+#slideContainer .slidebar li { float: left; margin-right: 1px; width: 20px; height: 20px; line-height: 20px; text-align: center; font-size: 10px; cursor: pointer; }
+    .slidebar li.on { background: rgba(255,255,255,0.5); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #50FFFFFF,endColorstr = #50FFFFFF); color: #000; font-weight: 700; }
+.slideshow li a img {z-index:-1;}
+
+
+#slideContainer a:hover { text-decoration: underline; color: #a50001; }
+
+.frame { background: none; border: 0px solid #fff; margin-bottom: 0px; }
+.temp { margin: 0; }
+.slidebar { position: absolute; top: 5px; left: 4px; }
+    .slideshow span.title, .slidebar li { background: rgba(0,0,0,0.3); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #90000000,endColorstr = #90000000); color: #FFF; overflow: hidden; }
+        .slidebar li.on { background: rgba(255,255,255,0.5); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #90000000,endColorstr = #90000000); color: #ff0; font-weight: 700; }
+
+.slideshow SPAN.title { text-indent: 0px; }
+.block { margin: 0;position: relative; }
+#frameHlicAe { margin: 0px !important; border: 0px !important; }
+.comiis_wrap960, .comiis_wrapad { margin: 0 auto; width: 960px; }
+.comiis_wrapad { margin-top: 10px;}
+.comiis_wrapad { overflow: hidden; }
+    .comiis_wrapad img { float: left; margin-top: 0px; }
+
+#slidesImgs li { width: 740px; display: none; }
